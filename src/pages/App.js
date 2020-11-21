@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "../assets/App.css";
+import { Routes } from "../config";
 
 function App() {
   return (
-    <div className="App">
-      <div>Ikhwanul Rahman</div>
-    </div>
-  );
+    <Routes />
+  )
 }
 
 export default App;
